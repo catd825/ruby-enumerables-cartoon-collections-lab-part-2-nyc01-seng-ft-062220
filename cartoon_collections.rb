@@ -32,6 +32,6 @@ def find_valid_calls(planeteer_calls)
   
   planeteer_calls.find {|call| valid_calls.include?(call)}
   
-  #
+  #find selects the first element that matches.  include identfies whether
   
 end
