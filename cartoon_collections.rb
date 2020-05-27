@@ -32,6 +32,6 @@ def find_valid_calls(planeteer_calls)
   
   planeteer_calls.find {|call| valid_calls.include?(call)}
   
-  #find selects the first element that matches.  include identfies whether
+  #find selects the first element that matches.  includ returns true if any member of enum equals obj. Equality is tested using ==.  call is the element passed through from planeteer calls, and is then compared to the elements of valid calls.
   
 end
